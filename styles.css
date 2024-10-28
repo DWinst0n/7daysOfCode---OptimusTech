@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url(styles/reset.css);
+@import url(styles/nav.css);
+@import url(styles/about.css);
+@import url(styles/vagas.css);
+@import url(styles/depoimentos.css);
+@import url(styles/rodapé.css);
+:root {
+    --cor-primaria: #FFFFFF;
+    --cor-de-fundo-rodape: #F9FAFB; 
+    --cor-secundaria: #667085;
+    --cor-secundaria-borda: #EAECF0;
+    --cor-terciaria: #101828;
+    --cor-destaque: #8E2424;
+    --cor-destaque-background:rgba(195, 25, 25, 0.03);
+    --fonte-principal: "Inter", sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-primaria);
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.destaque{
+    color:var(--cor-destaque);
+    font-weight: 600;
+}
+.principal{
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+}

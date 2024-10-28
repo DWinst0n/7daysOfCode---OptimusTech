@@ -1,0 +1,78 @@
+.vagas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.vagas__anuncio{
+    text-align: center;
+}
+.destaque{
+    border-radius: 1em;
+    background: var(--destaque) 0.05;
+    padding: 0.5em;
+}
+.vagas__titulo{
+    color: var(--cor-terciaria);
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+    letter-spacing: -0.045rem;
+}
+.vagas__texto{
+    color: var(--cor-secundaria);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+.vagas__imagem{
+    margin: 2em 8%;
+    width: 85%;
+}
+
+
+.vagas__trabalho{
+    display: flex;
+    flex-direction: column;
+}
+.trabalho{
+    margin: 3em 27%;
+}
+.trabalho__area{
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+}
+.listas__contratos{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 1.5em;
+}
+
+.trabalho__area{
+    color: var(--cor-terciaria);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    margin-bottom: 2em;
+}
+.contrato__nome{
+    color:var(--cor-terciaria);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+.contrato__descricao{
+    color: var(--cor-secundaria);
+    font-weight: 500;
+}
+.contrato__container{
+    padding: 1em;
+    border: 1px solid var(--cor-secundaria-borda);
+    border-radius: 1em;
+}
+@media screen and (max-width: 550px) {
+    .trabalho{
+        margin: 3em 10%
+    }
+}
